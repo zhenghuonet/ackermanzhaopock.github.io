@@ -1,0 +1,1241 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>模拟配方</title>
+<style>
+body{
+        background:lightblue;
+	
+}
+h1{
+    text-align:center;
+}
+button{
+   	height:200px;
+	width:100%;
+	align:center;
+        margin:auto auto;
+	background:darkred;
+	border-radius: 25px;
+}
+button:hover{
+   	height:200px;
+	width:100%;
+	align:center;
+        margin:auto auto;
+	background:red;
+	border-radius: 25px;
+	
+}
+</style>
+
+</head>
+<body>
+
+<h1 id="demo">（等级区间60-70）究极合成</h1>
+<div><button onclick="myFunction()"><h1>合成(160)</h1></button></div>
+<p style="text-align: center;">全部概率公示</p>
+<p style="text-align: center;">基础合成</p>
+
+<table align="center" border="1" cellspacing="0" style="width: 568px;">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; width: 201px; text-align: center;" x:str="">名称</td>
+			<td style="width: 51px; text-align: center;" x:str="">概率</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：木栅栏</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：雷明顿霰弹枪</td>
+			<td style="text-align: center;" x:num="0.0726817042606516">7.27%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：休闲线帽</td>
+			<td style="text-align: center;" x:num="0.0726817042606516">7.27%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：五层旧书架（16）</td>
+			<td style="text-align: center;" x:num="0.0726817042606516">7.27%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">商店配方：方形地毯摆设</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">商店配方：长形地毯摆设</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">商店配方：武器架（1）</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：蜂巢</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：贴墙炸弹</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：油罐</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：旧石质半身墙</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：2型简陋木屋顶</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：2型简陋木外凸角</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：2型简陋木内凹角</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：2型简陋木质斜面墙</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：木矮墙</td>
+			<td style="text-align: center;" x:num="0.0601503759398496">6.02%</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;">中级合成</p>
+
+<table align="center" border="1" cellspacing="0" style="width: 568px;">
+	<tbody>
+		<tr style="text-align: center;">
+		</tr>
+		<tr style="text-align: center;">
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; width: 186px; text-align: center;" x:str="">名称</td>
+			<td style="width: 51px; text-align: center;" x:str="">概率</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">UZI：雨天</td>
+			<td style="text-align: center;" x:num="0.0543356083369454">5.43%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">UZI：雪地</td>
+			<td style="text-align: center;" x:num="0.0543356083369454">5.43%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">UZI：典藏</td>
+			<td style="text-align: center;" x:num="0.0108671216673891">1.09%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：棒球帽</td>
+			<td style="text-align: center;" x:num="0.0543356083369454">5.43%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：复合弓</td>
+			<td style="text-align: center;" x:num="0.0217342433347782">2.17%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">复合弓：雨天</td>
+			<td style="text-align: center;" x:num="0.0217342433347782">2.17%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">复合弓：雪地</td>
+			<td style="text-align: center;" x:num="0.0217342433347782">2.17%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">复合弓：典藏</td>
+			<td style="text-align: center;" x:num="0.00543356083369454">0.54%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：铁丝球棍</td>
+			<td style="text-align: center;" x:num="0.0326013650021673">3.26%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：警用卫衣</td>
+			<td style="text-align: center;" x:num="0.0434684866695563">4.35%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：资深特工</td>
+			<td style="text-align: center;" x:num="0.0271678041684727">2.72%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：防爆警察</td>
+			<td style="text-align: center;" x:num="0.0271678041684727">2.72%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：烟雾弹</td>
+			<td style="text-align: center;" x:num="0.0507254788160186">5.07%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：书架柜（20）</td>
+			<td style="text-align: center;" x:num="0.0543356083369454">5.43%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">商店配方：大武器架（2）</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：笼子</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：油桶</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用防御：贴墙电网</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：1型旧石质屋顶</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：1型旧石质外凸角</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：1型旧石质内凹角</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用建筑：1型旧石质斜面墙</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：外凸长石砌斜面</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：内凹长石砌斜面</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：外凸短石砌斜面</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：内凹短石砌斜面</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：厚石地板</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：石砌高墙</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：石砌矮墙</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：石砌半身墙</td>
+			<td style="text-align: center;" x:num="0.032501450957632">3.25%</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;">高级合成</p>
+
+<table align="center" border="1" cellspacing="0" style="width: 568px;">
+	<tbody>
+		<tr style="text-align: center;">
+		</tr>
+		<tr style="text-align: center;">
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; width: 158px; text-align: center;" x:str="">道具名称</td>
+			<td style="width: 51px; text-align: center;" x:str="">概率</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：御寒棉帽</td>
+			<td style="text-align: center;" x:num="0.0422546771023063">4.23%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：朋克面罩</td>
+			<td style="text-align: center;" x:num="0.0211273385511532">2.11%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：闪光弹</td>
+			<td style="text-align: center;" x:num="0.0347761010775446">3.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：UMP9雨战色</td>
+			<td style="text-align: center;" x:num="0.0347761010775446">3.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：UMP9雪地色</td>
+			<td style="text-align: center;" x:num="0.0347761010775446">3.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：汤姆逊冲锋枪</td>
+			<td style="text-align: center;" x:num="0.0295782739716144">2.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：汤姆逊雨战色</td>
+			<td style="text-align: center;" x:num="0.0295782739716144">2.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：汤姆逊雪地色</td>
+			<td style="text-align: center;" x:num="0.0295782739716144">2.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：汤姆逊典藏版</td>
+			<td style="text-align: center;" x:num="0.00845093542046127">0.85%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：590M霰弹枪</td>
+			<td style="text-align: center;" x:num="0.0295782739716144">2.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：590M雨战色</td>
+			<td style="text-align: center;" x:num="0.0211273385511532">2.11%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：590M雪地色</td>
+			<td style="text-align: center;" x:num="0.0211273385511532">2.11%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：590M典藏版</td>
+			<td style="text-align: center;" x:num="0.00845093542046127">0.85%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：战斗先锋</td>
+			<td style="text-align: center;" x:num="0.0380292093920757">3.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：烈火先锋</td>
+			<td style="text-align: center;" x:num="0.0380292093920757">3.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：迷彩先锋</td>
+			<td style="text-align: center;" x:num="0.0380292093920757">3.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：白色矮木柜</td>
+			<td style="text-align: center;" x:num="0.038481092196646">3.85%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用防御：贴墙闸门</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用防御：毒气地雷</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用防御：地板电网</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：乙式曲面屋顶</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：乙式曲面外凸角</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：乙式曲面内凹角</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：乙式山形墙</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：罗马墙</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：弧形罗马墙</td>
+			<td style="text-align: center;" x:num="0.0278208808620357">2.78%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：古罗马单拱门</td>
+			<td style="text-align: center;" x:num="0.0211273385511532">2.11%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：大方柱</td>
+			<td style="text-align: center;" x:num="0.0211273385511532">2.11%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：5型旧木屋顶</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：5型旧木质弓形墙</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：6型旧木屋顶</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：6型旧木质弓形墙</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：&nbsp;树根墙</td>
+			<td style="text-align: center;" x:num="0.00470905500862056">0.47%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：长框石砌斜面</td>
+			<td style="text-align: center;" x:num="0.00845093542046127">0.85%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：短框石砌斜面</td>
+			<td style="text-align: center;" x:num="0.00935470102960178">0.94%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：&nbsp;巨型石柱</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：参天巨树</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：长形石砌斜面</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：短形石砌斜面</td>
+			<td style="text-align: center;" x:num="0.0233867525740045">2.34%</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;">特级合成</p>
+
+<table align="center" border="1" cellspacing="0" style="width: 568px;">
+	<tbody>
+		<tr style="text-align: center;">
+		</tr>
+		<tr style="text-align: center;">
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; width: 210px; text-align: center;" x:str="">道具名称</td>
+			<td style="width: 51px; text-align: center;" x:str="">概率</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：土制火炮</td>
+			<td style="text-align: center;" x:num="0.00392113802678322">0.39%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：土制火炮雨战版</td>
+			<td style="text-align: center;" x:num="0.00392113802678322">0.39%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：土制火炮雪地版</td>
+			<td style="text-align: center;" x:num="0.00392113802678322">0.39%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：土制火炮典藏版</td>
+			<td style="text-align: center;" x:num="0.00392113802678322">0.39%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：1级基础护盾</td>
+			<td style="text-align: center;" x:num="0.0235268281606993">2.35%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：1级蔚蓝护盾</td>
+			<td style="text-align: center;" x:num="0.0117634140803497">1.18%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：1级磺骨护盾</td>
+			<td style="text-align: center;" x:num="0.0117634140803497">1.18%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：MP5雨战</td>
+			<td style="text-align: center;" x:num="0.0482438588275363">4.82%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：MP5雪地</td>
+			<td style="text-align: center;" x:num="0.0482438588275363">4.82%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：反曲刀</td>
+			<td style="text-align: center;" x:num="0.0479473843548517">4.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：暴徒面罩</td>
+			<td style="text-align: center;" x:num="0.0335631690483962">3.36%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：暴徒外套</td>
+			<td style="text-align: center;" x:num="0.0335631690483962">3.36%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：莫辛纳甘狙击枪</td>
+			<td style="text-align: center;" x:num="0.0335631690483962">3.36%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：莫辛纳甘雨天</td>
+			<td style="text-align: center;" x:num="0.0335631690483962">3.36%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：莫辛纳甘雪地版</td>
+			<td style="text-align: center;" x:num="0.0335631690483962">3.36%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：莫辛纳甘典藏</td>
+			<td style="text-align: center;" x:num="0.0143842153064555">1.44%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AK47突击步枪</td>
+			<td style="text-align: center;" x:num="0.0239736921774258">2.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AK47雨战</td>
+			<td style="text-align: center;" x:num="0.0143842153064555">1.44%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AK47雪地</td>
+			<td style="text-align: center;" x:num="0.0143842153064555">1.44%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AK47典藏</td>
+			<td style="text-align: center;" x:num="0.00479473843548517">0.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：白衣天使</td>
+			<td style="text-align: center;" x:num="0.0239736921774258">2.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：大型铁艺架子（28）</td>
+			<td style="text-align: center;" x:num="0.0383579074838813">3.84%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：特级贴墙炸弹</td>
+			<td style="text-align: center;" x:num="0.038595087062029">3.86%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：专业油桶</td>
+			<td style="text-align: center;" x:num="0.038595087062029">3.86%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：M24狙击枪</td>
+			<td style="text-align: center;" x:num="0.0239736921774258">2.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：M24雨天</td>
+			<td style="text-align: center;" x:num="0.00958947687097034">0.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：M24雪地精英</td>
+			<td style="text-align: center;" x:num="0.00958947687097034">0.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：M24典藏</td>
+			<td style="text-align: center;" x:num="0.00479473843548517">0.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：额枋造型建筑</td>
+			<td style="text-align: center;" x:num="0.0383579074838813">3.84%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：丙式曲面屋顶</td>
+			<td style="text-align: center;" x:num="0.0383579074838813">3.84%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：丙式山形墙</td>
+			<td style="text-align: center;" x:num="0.0383579074838813">3.84%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：半圆屏风墙</td>
+			<td style="text-align: center;" x:num="0.00479473843548517">0.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：半身罗马墙</td>
+			<td style="text-align: center;" x:num="0.0204350972795777">2.04%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：罗马矮墙</td>
+			<td style="text-align: center;" x:num="0.0204350972795777">2.04%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：罗马双拱门</td>
+			<td style="text-align: center;" x:num="0.00958947687097034">0.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：彩色玻璃大门</td>
+			<td style="text-align: center;" x:num="0.00958947687097034">0.96%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：小圆方柱</td>
+			<td style="text-align: center;" x:num="0.0383579074838813">3.84%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：i型五彩玻璃窗</td>
+			<td style="text-align: center;" x:num="0.0383579074838813">3.84%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：4型旧木屋顶</td>
+			<td style="text-align: center;" x:num="0.0544935927455405">5.45%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：4型旧木质弓形墙</td>
+			<td style="text-align: center;" x:num="0.0544935927455405">5.45%</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;">超级合成</p>
+
+<table align="center" border="1" cellspacing="0" style="width: 568px;">
+	<tbody>
+		<tr style="text-align: center;">
+		</tr>
+		<tr style="text-align: center;">
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; width: 163px; text-align: center;" x:str="">道具名称</td>
+			<td style="width: 51px; text-align: center;" x:str="">概率</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：中国湖榴弹炮</td>
+			<td style="text-align: center;" x:num="0.0227430528682381">2.27%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：中国湖雨战版</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：中国湖雪地版</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：中国湖典藏版</td>
+			<td style="text-align: center;" x:num="0.00303240704909841">0.30%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：2级基础护盾</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：2级蔚蓝护盾</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：2级磺骨护盾</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：塔沃尔雪地色</td>
+			<td style="text-align: center;" x:num="0.0113715264341191">1.14%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：塔沃尔典藏版</td>
+			<td style="text-align: center;" x:num="0.00303240704909841">0.30%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：塔沃尔雨战色</td>
+			<td style="text-align: center;" x:num="0.0113715264341191">1.14%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：M416突击步枪</td>
+			<td style="text-align: center;" x:num="0.0303240704909841">3.03%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：M416雪地色</td>
+			<td style="text-align: center;" x:num="0.0113715264341191">1.14%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：M416典藏版</td>
+			<td style="text-align: center;" x:num="0.00303240704909841">0.30%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：M416雨战色</td>
+			<td style="text-align: center;" x:num="0.0113715264341191">1.14%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：长刀</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AS50狙击枪</td>
+			<td style="text-align: center;" x:num="0.0227430528682381">2.27%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AS50雪地色</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AS50典藏版</td>
+			<td style="text-align: center;" x:num="0.00227430528682381">0.23%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AS50雨战色</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：黑色恶魔</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：科技先锋</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：高级发动机</td>
+			<td style="text-align: center;" x:num="0.0537772559337559">5.38%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：高级结构框架</td>
+			<td style="text-align: center;" x:num="0.0537772559337559">5.38%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：高级导航仪</td>
+			<td style="text-align: center;" x:num="0.0537772559337559">5.38%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：挂墙橱柜</td>
+			<td style="text-align: center;" x:num="0.064532707120507">6.45%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用防御：钢化笼子</td>
+			<td style="text-align: center;" x:num="0.064532707120507">6.45%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用防御：强化毒气地雷</td>
+			<td style="text-align: center;" x:num="0.064532707120507">6.45%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：中式楼梯</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：中式矮楼梯</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：中式围栏</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：贰型内嵌圆门</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：叄型内嵌圆窗</td>
+			<td style="text-align: center;" x:num="0.0379050881137302">3.79%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：弧形厚墙墩</td>
+			<td style="text-align: center;" x:num="0.0147537053316203">1.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：厚墙墩</td>
+			<td style="text-align: center;" x:num="0.0147537053316203">1.48%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：长型彩色玻璃窗</td>
+			<td style="text-align: center;" x:num="0.00989615590095703">0.99%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：短身彩色玻璃窗</td>
+			<td style="text-align: center;" x:num="0.00989615590095703">0.99%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：屋檐短地板</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：旧木半边墙</td>
+			<td style="text-align: center;" x:num="0.00909722114729524">0.91%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：装饰矮墙</td>
+			<td style="text-align: center;" x:num="0.0245895088860338">2.46%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：6型屋顶反弓墙</td>
+			<td style="text-align: center;" x:num="0.0245895088860338">2.46%</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center;">究极合成</p>
+
+<table align="center" border="1" cellspacing="0" style="width: 568px;">
+	<tbody>
+		<tr style="text-align: center;">
+		</tr>
+		<tr style="text-align: center;">
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; width: 178px; text-align: center;" x:str="">道具名称</td>
+			<td style="width: 51px; text-align: center;" x:str="">概率</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：A2榴弹突击枪</td>
+			<td style="text-align: center;" x:num="0.0212398685651698">2.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：A2突击雨战版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：A2突击雪地版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：A2突击典藏版</td>
+			<td style="text-align: center;" x:num="0.00212398685651698">0.21%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AWM狙击步枪</td>
+			<td style="text-align: center;" x:num="0.0159299014238773">1.59%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AWM雨战色</td>
+			<td style="text-align: center;" x:num="0.00637196056955093">0.64%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AWM雪地色</td>
+			<td style="text-align: center;" x:num="0.00637196056955093">0.64%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AWM典藏版</td>
+			<td style="text-align: center;" x:num="0.00159299014238773">0.16%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：短管冲锋雨战版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：短管冲锋雪地版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：短管冲锋典藏版</td>
+			<td style="text-align: center;" x:num="0.00212398685651698">0.21%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：电击棍</td>
+			<td style="text-align: center;" x:num="0.0265498357064622">2.65%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：蓝色强袭铠</td>
+			<td style="text-align: center;" x:num="0.0265498357064622">2.65%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：强袭头盔</td>
+			<td style="text-align: center;" x:num="0.0265498357064622">2.65%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：特级发动机</td>
+			<td style="text-align: center;" x:num="0.0539759036144578">5.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：特级结构框架</td>
+			<td style="text-align: center;" x:num="0.0539759036144578">5.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：暗红兔毛绒地毯</td>
+			<td style="text-align: center;" x:num="0.0539759036144578">5.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：落地华丽烛台</td>
+			<td style="text-align: center;" x:num="0.0539759036144578">5.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">家用配方：布制101窗帘</td>
+			<td style="text-align: center;" x:num="0.0539759036144578">5.40%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：KSG霰弹枪</td>
+			<td style="text-align: center;" x:num="0.0159299014238773">1.59%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：KSG雨战版</td>
+			<td style="text-align: center;" x:num="0.00637196056955093">0.64%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：KSG雪地版</td>
+			<td style="text-align: center;" x:num="0.00637196056955093">0.64%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：KSG典藏版</td>
+			<td style="text-align: center;" x:num="0.00212398685651698">0.21%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：3级基础护盾</td>
+			<td style="text-align: center;" x:num="0.0265498357064622">2.65%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：3级蔚蓝护盾</td>
+			<td style="text-align: center;" x:num="0.0111509309967141">1.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：3级磺骨护盾</td>
+			<td style="text-align: center;" x:num="0.0111509309967141">1.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：G36C雨战版</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：G36C雪地版</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：G36C典藏版</td>
+			<td style="text-align: center;" x:num="0.00424797371303395">0.42%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：AN94榴弹突击枪</td>
+			<td style="text-align: center;" x:num="0.0159299014238773">1.59%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AN94突击雨战版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AN94突击雪地版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：AN94突击典藏版</td>
+			<td style="text-align: center;" x:num="0.00159299014238773">0.16%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：DSR狙击枪</td>
+			<td style="text-align: center;" x:num="0.0292048192771084">2.92%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：DSR雨战版</td>
+			<td style="text-align: center;" x:num="0.0106199342825849">1.06%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：DSR雪地版</td>
+			<td style="text-align: center;" x:num="0.0106199342825849">1.06%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：DSR典藏版</td>
+			<td style="text-align: center;" x:num="0.00318598028477547">0.32%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：沙漠铠甲</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：烈焰铠甲</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：暗夜谍影</td>
+			<td style="text-align: center;" x:num="0.0212398685651698">2.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：沙漠谍影</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：烈焰谍影</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：战略通讯器</td>
+			<td style="text-align: center;" x:num="0.0212398685651698">2.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：终结战场</td>
+			<td style="text-align: center;" x:num="0.0212398685651698">2.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：4级基础护盾</td>
+			<td style="text-align: center;" x:num="0.0212398685651698">2.12%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：4级蔚蓝护盾</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：4级磺骨护盾</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">锯齿刀</td>
+			<td style="text-align: center;" x:num="0.0132749178532311">1.33%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：X10A型扩散器</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：电弧突击雨战版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：电弧突击雪地版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：电弧突击典藏版</td>
+			<td style="text-align: center;" x:num="0.00159299014238773">0.16%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：制导式火箭筒</td>
+			<td style="text-align: center;" x:num="0.0318598028477547">3.19%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：火箭筒雨战版</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：火箭筒雪地版</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：火箭筒典藏版</td>
+			<td style="text-align: center;" x:num="0.00106199342825849">0.11%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：SVD狙击枪</td>
+			<td style="text-align: center;" x:num="0.0318598028477547">3.19%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：SVD雨战版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：SVD雪地版</td>
+			<td style="text-align: center;" x:num="0.00796495071193866">0.80%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：SVD典藏版</td>
+			<td style="text-align: center;" x:num="0.00159299014238773">0.16%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：夜幕铁甲</td>
+			<td style="text-align: center;" x:num="0.0318598028477547">3.19%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：丛林铁甲</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">涂装：天际铁甲</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：武装通讯器</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：5级基础护盾</td>
+			<td style="text-align: center;" x:num="0.0106199342825849">1.06%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：5级蔚蓝护盾</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+		<tr height="22">
+			<td height="22" style="height: 22px; text-align: center;" x:str="">配方：5级磺骨护盾</td>
+			<td style="text-align: center;" x:num="0.00530996714129244">0.53%</td>
+		</tr>
+	</tbody>
+</table>
+
+<script>
+function myFunction(){
+	var x=document.getElementById("demo");
+	var a = Math.floor((Math.random()*85)+1);
+	if(a  == 1){
+	b = 'KSG散弹枪'
+                  }else if(a  == 2){
+	b = 'A2榴弹突击枪'
+                  }else if(a  == 3){
+	b = 'AWM狙击步枪'
+                  }else if(a  == 4){
+	b = '电击棍'
+                  }else if(a  == 5){
+	b = '蓝色强袭铠'
+                  }else if(a  == 6){
+	b = '强袭头盔'
+                  }else if(a  == 7){
+	b = '特级发动机'
+                  }else if(a  == 8){
+	b = '特级结构框架'
+                  }else if(a  == 9){
+	b = '3级基础护盾'
+                  }else if(a  == 10){
+	b = '3级蔚蓝护盾'
+                  }else if(a  == 11){
+	b = '3级磺骨护盾'
+                  }else if(a  == 12){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 13){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 14){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 15){
+	b = '落地华丽烛台'
+                  }else if(a  == 16){
+	b = '落地华丽烛台'
+                  }else if(a  == 17){
+	b = '落地华丽烛台'
+                  }else if(a  == 18){
+	b = '布制101窗帘'
+                  }else if(a  == 19){
+	b = '布制101窗帘'
+                  }else if(a  == 20){
+	b = '布制101窗帘'
+                  }else if(a  == 21){
+	b = 'KSG散弹枪'
+                  }else if(a  == 22){
+	b = 'A2榴弹突击枪'
+                  }else if(a  == 23){
+	b = 'AWM狙击步枪'
+                  }else if(a  == 24){
+	b = '电击棍'
+                  }else if(a  == 25){
+	b = '蓝色强袭铠'
+                  }else if(a  == 26){
+	b = '强袭头盔'
+                  }else if(a  == 27){
+	b = '特级发动机'
+                  }else if(a  == 28){
+	b = '特级结构框架'
+                  }else if(a  == 29){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 30){
+	b = '落地华丽烛台'
+                  }else if(a  == 31){
+	b = '布制101窗帘'
+                  }else if(a  == 32){
+	b = 'A2突击雨战版'
+                  }else if(a  == 33){
+	b = 'A2突击雪地版'
+                  }else if(a  == 34){
+	b = 'A2突击典藏版'
+                  }else if(a  == 35){
+	b = 'AWM雨战色'
+                  }else if(a  == 36){
+	b = 'AWM雪地色'
+                  }else if(a  == 37){
+	b = 'AWM典藏版'
+                  }else if(a  == 38){
+	b = '短管冲锋雨战版'
+                  }else if(a  == 39){
+	b = '短管冲锋雪地版'
+                  }else if(a  == 40){
+	b = '短管冲锋典藏版'
+                  }else if(a  == 41){
+	b = 'KSG雨战版'
+                  }else if(a  == 42){
+	b = 'KSG雪地版'
+                  }else if(a  == 43){
+	b = 'KSG典藏版'
+                  }else if(a  == 44){
+	b = 'A2榴弹突击枪'
+                  }else if(a  == 45){
+	b = 'AWM狙击步枪'
+                  }else if(a  == 46){
+	b = '电击棍'
+                  }else if(a  == 47){
+	b = '蓝色强袭铠'
+                  }else if(a  == 48){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 49){
+	b = '落地华丽烛台'
+                  }else if(a  == 50){
+	b = '强袭头盔'
+                  }else if(a  == 51){
+	b = '特级发动机'
+                  }else if(a  == 52){
+	b = '特级结构框架'
+                  }else if(a  == 53){
+	b = '3级基础护盾'
+                  }else if(a  == 54){
+	b = '3级蔚蓝护盾'
+                  }else if(a  == 55){
+	b = '3级磺骨护盾'
+                  }else if(a  == 56){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 57){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 58){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 59){
+	b = '落地华丽烛台'
+                  }else if(a  == 60){
+	b = '落地华丽烛台'
+                  }else if(a  == 61){
+	b = '落地华丽烛台'
+                  }else if(a  == 62){
+	b = '布制101窗帘'
+                  }else if(a  == 63){
+	b = '布制101窗帘'
+                  }else if(a  == 64){
+	b = '布制101窗帘'
+                  }else if(a  == 65){
+	b = 'KSG散弹枪'
+                  }else if(a  == 66){
+	b = 'A2榴弹突击枪'
+                  }else if(a  == 67){
+	b = 'AWM狙击步枪'
+                  }else if(a  == 68){
+	b = '电击棍'
+                  }else if(a  == 69){
+	b = '蓝色强袭铠'
+                  }else if(a  == 70){
+	b = '强袭头盔'
+                  }else if(a  == 71){
+	b = '特级发动机'
+                  }else if(a  == 72){
+	b = '特级结构框架'
+                  }else if(a  == 73){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 74){
+	b = '落地华丽烛台'
+                  }else if(a  == 75){
+	b = '布制101窗帘'
+                  }else if(a  == 76){
+	b = '短管冲锋雨战版'
+                  }else if(a  == 77){
+	b = '短管冲锋雪地版'
+                  }else if(a  == 78){
+	b = '短管冲锋典藏版'
+                  }else if(a  == 79){
+	b = '落地华丽烛台'
+                  }else if(a  == 80){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 81){
+	b = '布制101窗帘'
+                  }else if(a  == 82){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 83){
+	b = '暗红兔毛绒地毯'
+                  }else if(a  == 84){
+	b = '落地华丽烛台'
+                  }else{
+ 	b = '布制101窗帘'
+	}
+		  alert('也就蔡子童能干出这种事了...请稍后')
+setTimeout( function(){
+   alert(b)
+}, 1 * 1500 )
+                 
+}
+</script>
+
+</body>
+</html>
