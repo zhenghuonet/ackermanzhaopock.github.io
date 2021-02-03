@@ -1,0 +1,67 @@
+﻿<html>
+<head>
+<script type="text/javascript">
+function getValue()
+  {
+  var x=document.getElementById("myHeader").value
+  window.location.href=x
+  }
+</script>
+<style>
+body{
+       background: url('zzh.jpg');
+}
+
+button{
+    background-color:RGBa(200,200,200,0.7);
+    height:80px;
+    width:98%;
+    position:absolute;
+    margin: 6px 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    text-align: center;
+    }
+    button:hover{
+    background-color:RGBa(200,200,200,0.9);
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+input{
+    background-color:RGBa(200,200,200,0.7);
+    width:100%;
+    margin: 6px 6px;
+    padding: 10px 32px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    }
+    input:hover{
+    background-color:RGBa(200,200,200,0.9);
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+ h1{text-align: center;
+	color:white;}
+</style>
+</head>
+<body>
+
+
+<h1><hr>整活网站<hr>欢迎来到整活网站档案库！<br>
+请填写要查询的人名[目前计入:5人]<hr>如果没有照片，请刷新网页。<br>档案格式参考国家标准</h1><hr>
+
+<input type='text' id="myHeader">
+<div><button onclick="getValue()" style:'width:100%'>查询</button></div>
+
+
+</body>
+</html>
