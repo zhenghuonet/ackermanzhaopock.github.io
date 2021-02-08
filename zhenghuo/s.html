@@ -7,8 +7,11 @@
 function getValue()
   {
   var x=document.getElementById("myHeader").value
-  window.location.href='https://www.baidu.com/s?ie=utf-8&wd='+x
-  }
+  if(x){
+  window.location.href='https://cn.bing.com/search?q='+x
+  }else{
+  window.location.href='bing.html'
+  }}
 </script>
 <style>
 body{
